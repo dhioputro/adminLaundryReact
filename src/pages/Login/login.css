@@ -1,0 +1,53 @@
+.container-page {
+    display: flex;
+    position: relative;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.container-page::before {
+  content: "";
+  background-image: url("https://www.thoughtco.com/thmb/42_rdSNXjE4R9-MgxfUV_LFyn7M=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/laundry-114119592-58e3b2043df78c516205da47.jpg");
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-color: #cccccc;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+  
+  .container-login {
+    position: relative;
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: 2px solid #00587a;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 6px lightgray ;
+  }
+
+  .container-input {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+ .input {
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  } 
+
+  .btn-container {
+    margin-top: 0;
+  }
+
+  h2 {
+    padding-top: 15px;
+  }
+  
